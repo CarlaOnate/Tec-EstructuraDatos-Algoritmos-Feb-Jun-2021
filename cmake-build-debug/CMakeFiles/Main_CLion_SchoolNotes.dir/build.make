@@ -90,44 +90,44 @@ CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.s
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o: CMakeFiles/Main_CLion_SchoolNotes.dir/flags.make
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o: ../Clase-1/Example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o -c "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.cpp"
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o: CMakeFiles/Main_CLion_SchoolNotes.dir/flags.make
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o: ../Templates_Exercise/exampleMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o -c "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp"
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.cpp" > CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.i
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp" > CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.i
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.s
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.s
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o: CMakeFiles/Main_CLion_SchoolNotes.dir/flags.make
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o: ../Clase-1/exampleMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o -c "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/exampleMain.cpp"
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o: CMakeFiles/Main_CLion_SchoolNotes.dir/flags.make
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o: ../Templates_Exercise/TemplateEx_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o -c "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp"
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/exampleMain.cpp" > CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.i
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp" > CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.i
 
-CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/exampleMain.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.s
+CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.s
 
 # Object files for target Main_CLion_SchoolNotes
 Main_CLion_SchoolNotes_OBJECTS = \
 "CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o" \
-"CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o" \
-"CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o"
+"CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o" \
+"CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o"
 
 # External object files for target Main_CLion_SchoolNotes
 Main_CLion_SchoolNotes_EXTERNAL_OBJECTS =
 
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o
-Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o
-Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o
+Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o
+Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/build.make
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Main_CLion_SchoolNotes"

@@ -143,59 +143,59 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
-Clase-1/Example.o: Clase-1/Example.cpp.o
+Templates_Exercise/TemplateEx_1.o: Templates_Exercise/TemplateEx_1.cpp.o
 
-.PHONY : Clase-1/Example.o
-
-# target to build an object file
-Clase-1/Example.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.o
-.PHONY : Clase-1/Example.cpp.o
-
-Clase-1/Example.i: Clase-1/Example.cpp.i
-
-.PHONY : Clase-1/Example.i
-
-# target to preprocess a source file
-Clase-1/Example.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.i
-.PHONY : Clase-1/Example.cpp.i
-
-Clase-1/Example.s: Clase-1/Example.cpp.s
-
-.PHONY : Clase-1/Example.s
-
-# target to generate assembly for a file
-Clase-1/Example.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/Example.cpp.s
-.PHONY : Clase-1/Example.cpp.s
-
-Clase-1/exampleMain.o: Clase-1/exampleMain.cpp.o
-
-.PHONY : Clase-1/exampleMain.o
+.PHONY : Templates_Exercise/TemplateEx_1.o
 
 # target to build an object file
-Clase-1/exampleMain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.o
-.PHONY : Clase-1/exampleMain.cpp.o
+Templates_Exercise/TemplateEx_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o
+.PHONY : Templates_Exercise/TemplateEx_1.cpp.o
 
-Clase-1/exampleMain.i: Clase-1/exampleMain.cpp.i
+Templates_Exercise/TemplateEx_1.i: Templates_Exercise/TemplateEx_1.cpp.i
 
-.PHONY : Clase-1/exampleMain.i
+.PHONY : Templates_Exercise/TemplateEx_1.i
 
 # target to preprocess a source file
-Clase-1/exampleMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.i
-.PHONY : Clase-1/exampleMain.cpp.i
+Templates_Exercise/TemplateEx_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.i
+.PHONY : Templates_Exercise/TemplateEx_1.cpp.i
 
-Clase-1/exampleMain.s: Clase-1/exampleMain.cpp.s
+Templates_Exercise/TemplateEx_1.s: Templates_Exercise/TemplateEx_1.cpp.s
 
-.PHONY : Clase-1/exampleMain.s
+.PHONY : Templates_Exercise/TemplateEx_1.s
 
 # target to generate assembly for a file
-Clase-1/exampleMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Clase-1/exampleMain.cpp.s
-.PHONY : Clase-1/exampleMain.cpp.s
+Templates_Exercise/TemplateEx_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.s
+.PHONY : Templates_Exercise/TemplateEx_1.cpp.s
+
+Templates_Exercise/exampleMain.o: Templates_Exercise/exampleMain.cpp.o
+
+.PHONY : Templates_Exercise/exampleMain.o
+
+# target to build an object file
+Templates_Exercise/exampleMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o
+.PHONY : Templates_Exercise/exampleMain.cpp.o
+
+Templates_Exercise/exampleMain.i: Templates_Exercise/exampleMain.cpp.i
+
+.PHONY : Templates_Exercise/exampleMain.i
+
+# target to preprocess a source file
+Templates_Exercise/exampleMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.i
+.PHONY : Templates_Exercise/exampleMain.cpp.i
+
+Templates_Exercise/exampleMain.s: Templates_Exercise/exampleMain.cpp.s
+
+.PHONY : Templates_Exercise/exampleMain.s
+
+# target to generate assembly for a file
+Templates_Exercise/exampleMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.s
+.PHONY : Templates_Exercise/exampleMain.cpp.s
 
 main.o: main.cpp.o
 
@@ -233,12 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
-	@echo "... Clase-1/Example.o"
-	@echo "... Clase-1/Example.i"
-	@echo "... Clase-1/Example.s"
-	@echo "... Clase-1/exampleMain.o"
-	@echo "... Clase-1/exampleMain.i"
-	@echo "... Clase-1/exampleMain.s"
+	@echo "... Templates_Exercise/TemplateEx_1.o"
+	@echo "... Templates_Exercise/TemplateEx_1.i"
+	@echo "... Templates_Exercise/TemplateEx_1.s"
+	@echo "... Templates_Exercise/exampleMain.o"
+	@echo "... Templates_Exercise/exampleMain.i"
+	@echo "... Templates_Exercise/exampleMain.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

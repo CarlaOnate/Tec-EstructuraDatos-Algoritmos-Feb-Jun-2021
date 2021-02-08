@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.cpp">
+		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.h">
+		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.h">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/exampleMain.cpp">
+		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
 		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp">
