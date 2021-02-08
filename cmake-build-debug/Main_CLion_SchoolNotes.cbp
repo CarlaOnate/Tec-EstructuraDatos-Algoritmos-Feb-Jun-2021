@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
+				<Option working_dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
+				<Option working_dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
+				<Option working_dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main_CLion_SchoolNotes">
-				<Option output="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/Main_CLion_SchoolNotes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
+				<Option output="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/Main_CLion_SchoolNotes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main_CLion_SchoolNotes"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main_CLion_SchoolNotes"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Main_CLion_SchoolNotes/fast">
-				<Option output="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/Main_CLion_SchoolNotes" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
+				<Option output="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/Main_CLion_SchoolNotes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,26 +73,26 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main_CLion_SchoolNotes/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 Main_CLion_SchoolNotes/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion\ Estructura\ de\ Datos/Main_CLion_SchoolNotes/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateClassExample.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.h">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateClassExample.h">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/CMakeLists.txt">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

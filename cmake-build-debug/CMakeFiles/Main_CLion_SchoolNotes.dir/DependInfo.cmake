@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateEx_1.cpp" "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o"
-  "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp" "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o"
-  "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp" "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o"
+  "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/TemplateClassExample.cpp" "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.o"
+  "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Exercise/exampleMain.cpp" "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o"
+  "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp" "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

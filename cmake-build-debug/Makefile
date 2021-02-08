@@ -68,10 +68,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes"
+CMAKE_SOURCE_DIR = "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -143,32 +143,32 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
-Templates_Exercise/TemplateEx_1.o: Templates_Exercise/TemplateEx_1.cpp.o
+Templates_Exercise/TemplateClassExample.o: Templates_Exercise/TemplateClassExample.cpp.o
 
-.PHONY : Templates_Exercise/TemplateEx_1.o
+.PHONY : Templates_Exercise/TemplateClassExample.o
 
 # target to build an object file
-Templates_Exercise/TemplateEx_1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.o
-.PHONY : Templates_Exercise/TemplateEx_1.cpp.o
+Templates_Exercise/TemplateClassExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.o
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.o
 
-Templates_Exercise/TemplateEx_1.i: Templates_Exercise/TemplateEx_1.cpp.i
+Templates_Exercise/TemplateClassExample.i: Templates_Exercise/TemplateClassExample.cpp.i
 
-.PHONY : Templates_Exercise/TemplateEx_1.i
+.PHONY : Templates_Exercise/TemplateClassExample.i
 
 # target to preprocess a source file
-Templates_Exercise/TemplateEx_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.i
-.PHONY : Templates_Exercise/TemplateEx_1.cpp.i
+Templates_Exercise/TemplateClassExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.i
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.i
 
-Templates_Exercise/TemplateEx_1.s: Templates_Exercise/TemplateEx_1.cpp.s
+Templates_Exercise/TemplateClassExample.s: Templates_Exercise/TemplateClassExample.cpp.s
 
-.PHONY : Templates_Exercise/TemplateEx_1.s
+.PHONY : Templates_Exercise/TemplateClassExample.s
 
 # target to generate assembly for a file
-Templates_Exercise/TemplateEx_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateEx_1.cpp.s
-.PHONY : Templates_Exercise/TemplateEx_1.cpp.s
+Templates_Exercise/TemplateClassExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.s
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.s
 
 Templates_Exercise/exampleMain.o: Templates_Exercise/exampleMain.cpp.o
 
@@ -233,9 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
-	@echo "... Templates_Exercise/TemplateEx_1.o"
-	@echo "... Templates_Exercise/TemplateEx_1.i"
-	@echo "... Templates_Exercise/TemplateEx_1.s"
+	@echo "... Templates_Exercise/TemplateClassExample.o"
+	@echo "... Templates_Exercise/TemplateClassExample.i"
+	@echo "... Templates_Exercise/TemplateClassExample.s"
 	@echo "... Templates_Exercise/exampleMain.o"
 	@echo "... Templates_Exercise/exampleMain.i"
 	@echo "... Templates_Exercise/exampleMain.s"
