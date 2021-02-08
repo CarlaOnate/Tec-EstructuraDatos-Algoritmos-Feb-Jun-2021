@@ -143,6 +143,33 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
+Templates_Exercise/TemplateClassExample.o: Templates_Exercise/TemplateClassExample.cpp.o
+
+.PHONY : Templates_Exercise/TemplateClassExample.o
+
+# target to build an object file
+Templates_Exercise/TemplateClassExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.o
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.o
+
+Templates_Exercise/TemplateClassExample.i: Templates_Exercise/TemplateClassExample.cpp.i
+
+.PHONY : Templates_Exercise/TemplateClassExample.i
+
+# target to preprocess a source file
+Templates_Exercise/TemplateClassExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.i
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.i
+
+Templates_Exercise/TemplateClassExample.s: Templates_Exercise/TemplateClassExample.cpp.s
+
+.PHONY : Templates_Exercise/TemplateClassExample.s
+
+# target to generate assembly for a file
+Templates_Exercise/TemplateClassExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.s
+.PHONY : Templates_Exercise/TemplateClassExample.cpp.s
+
 Templates_Exercise/exampleMain.o: Templates_Exercise/exampleMain.cpp.o
 
 .PHONY : Templates_Exercise/exampleMain.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
+	@echo "... Templates_Exercise/TemplateClassExample.o"
+	@echo "... Templates_Exercise/TemplateClassExample.i"
+	@echo "... Templates_Exercise/TemplateClassExample.s"
 	@echo "... Templates_Exercise/exampleMain.o"
 	@echo "... Templates_Exercise/exampleMain.i"
 	@echo "... Templates_Exercise/exampleMain.s"
