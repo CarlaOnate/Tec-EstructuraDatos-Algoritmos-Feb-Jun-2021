@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.cpp
+Example.h
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.h
+
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.h
+
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/exampleMain.cpp
+iostream
+-
+Example.h
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Clase-1/Example.h
+
+/Users/carla/Documents/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/main.cpp
+iostream
+-
+
