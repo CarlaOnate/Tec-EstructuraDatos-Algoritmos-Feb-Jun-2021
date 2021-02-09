@@ -4,6 +4,8 @@
 
 #include "TemplateClassExample.h"
 
+//template<class className> returnType Class<className>::functionName(){}
+
 template<class T> Lista<T>::Lista() {
     size = 0;
 }

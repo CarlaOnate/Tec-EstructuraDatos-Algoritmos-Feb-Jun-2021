@@ -5,12 +5,16 @@
 #ifndef MAIN_CLION_SCHOOLNOTES_LISTA_H
 #define MAIN_CLION_SCHOOLNOTES_LISTA_H
 
+#include <vector>
+#include "iostream"
+using namespace std;
+
 const int MAX = 100;
 
 template<class T>
 class Lista {
 private:
-    T vector<T>;
+    vector<T> listaDatos;
     int size;
 public:
     Lista();
