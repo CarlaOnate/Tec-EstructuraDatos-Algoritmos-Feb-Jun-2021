@@ -39,5 +39,9 @@ template<class T> T Lista<T>::getData(int index) {
 }
 
 template<class T> void Lista<T>::print() {
-    for()
+    int index = 0;
+    for(T data : listaDatos){
+        cout << '[' << index << ']' << '-' << data << endl;
+        index++;
+    }
 }
