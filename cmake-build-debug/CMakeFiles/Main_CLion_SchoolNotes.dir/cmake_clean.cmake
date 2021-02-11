@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o"
+  "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/exampleMain.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o"

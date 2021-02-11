@@ -17,7 +17,7 @@ private:
     vector<T> listaDatos;
     int size;
 public:
-    Lista();
+    Lista<T>();
     bool insert(T); //Todo: Coloca valor al final del vector
     bool erase(); //Todo: Despliega utlimo elemento de la lista y lo borra, sino pone "NO HAY ELEMENTOS"
     T getData(int); //Todo: Recibe index y regresa dato en esa posicion, validacion de input.

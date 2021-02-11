@@ -170,6 +170,33 @@ Templates_Activity_CarlaO/Lista.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.s
 .PHONY : Templates_Activity_CarlaO/Lista.cpp.s
 
+Templates_Activity_CarlaO/act_main.o: Templates_Activity_CarlaO/act_main.cpp.o
+
+.PHONY : Templates_Activity_CarlaO/act_main.o
+
+# target to build an object file
+Templates_Activity_CarlaO/act_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.o
+
+Templates_Activity_CarlaO/act_main.i: Templates_Activity_CarlaO/act_main.cpp.i
+
+.PHONY : Templates_Activity_CarlaO/act_main.i
+
+# target to preprocess a source file
+Templates_Activity_CarlaO/act_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.i
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.i
+
+Templates_Activity_CarlaO/act_main.s: Templates_Activity_CarlaO/act_main.cpp.s
+
+.PHONY : Templates_Activity_CarlaO/act_main.s
+
+# target to generate assembly for a file
+Templates_Activity_CarlaO/act_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.s
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.s
+
 Templates_ClassAct/TemplateClassExample.o: Templates_ClassAct/TemplateClassExample.cpp.o
 
 .PHONY : Templates_ClassAct/TemplateClassExample.o
@@ -263,6 +290,9 @@ help:
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"
+	@echo "... Templates_Activity_CarlaO/act_main.o"
+	@echo "... Templates_Activity_CarlaO/act_main.i"
+	@echo "... Templates_Activity_CarlaO/act_main.s"
 	@echo "... Templates_ClassAct/TemplateClassExample.o"
 	@echo "... Templates_ClassAct/TemplateClassExample.i"
 	@echo "... Templates_ClassAct/TemplateClassExample.s"

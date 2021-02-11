@@ -86,6 +86,12 @@
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/Lista.h">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/act_main.cpp">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/act_main.h">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_ClassAct/TemplateClassExample.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
