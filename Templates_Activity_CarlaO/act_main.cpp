@@ -16,7 +16,7 @@ int act_main() {
 
 //Profe esto me marco error y ya no supe como hacerle para probar las funciones de mis clase :(
 //Ya deberia de servir
-    Lista<string> a;
+    Lista<string> stringList;
     Lista<int> intList;
 
     stringList.insert("Holo");
