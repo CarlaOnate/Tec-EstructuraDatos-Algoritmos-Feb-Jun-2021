@@ -34,7 +34,7 @@ template<class T> bool Lista<T>::erase() {
 template<class T> T Lista<T>::getData(int index) {
     int size = this->getSize();
     if(index > 0 && index < size){
-        return listaDatos[int]
+        return listaDatos[index];
     }
 }
 

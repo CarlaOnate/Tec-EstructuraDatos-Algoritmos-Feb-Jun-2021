@@ -17,6 +17,7 @@ D sumaFrac(D n1, D n2, D d1, D d2){
 
 //Todo: Make clase fraction separate form main and sum those fractions with a template
 
+template <class T>
 int exampleMain() {
     int a = 2, b = 10, c = 4;
     double a1 = 1.1, a2 = 2.2, a3 = 3.3;

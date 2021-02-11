@@ -3,20 +3,22 @@
 //
 
 //#include "Recursion.h"
+#include <iostream>
+using namespace std;
 
-//Todo: SumaIterativa
+//Todo: SumaIterativa - iterativo
 
-int sumaIterativa(n){
-    sum = 0;
+int sumaIterativa(int n){
+    int sum = 0;
     for(int i = 1; i < n; i++){
         sum = sum + i;
     }
     return sum;
 }
 
-//Todo: SumaRecursiva
+//Todo: SumaRecursiva - recursivo
 
-int sumaRecursiva(n){
+int sumaRecursiva(int n){
     if(n == 0){
         return 0;
     } else {
@@ -24,25 +26,25 @@ int sumaRecursiva(n){
     }
 }
 
-//Todo: SumaDirecta - suma = (n+1)/2
+//Todo: SumaDirecta = (n+1)/2 - formulazo
 
-int sumaDirecta(n){
-    if(n == 0){
-        return 0;
+int sumaDirecta(int n){
+    if(n >= 0){
+        return (n+1)/2;
     } else {
-        return sumaDirecta((n+1)/(2));
+        cout << "Numero invalido" << endl;
+        return 0;
     }
 }
 
 
-//Todo: factorial
+//Todo: factorial - recursivo
 
-int factorial(n){
+int factorial(int n){
     if(n == 0){
         return 1;
     } else {
         return n * factorial(n-1);
     }
-
 }
 
