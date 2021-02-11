@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Recursion_ClassAct/Recursion.cpp">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Recursion_ClassAct/Recursion.h">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/Lista.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
@@ -87,9 +93,6 @@
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/act_main.cpp">
-			<Option target="Main_CLion_SchoolNotes"/>
-		</Unit>
-		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/act_main.h">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_ClassAct/TemplateClassExample.cpp">

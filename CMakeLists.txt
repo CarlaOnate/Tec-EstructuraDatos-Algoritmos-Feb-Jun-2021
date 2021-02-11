@@ -3,4 +3,4 @@ project(Main_CLion_SchoolNotes)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Main_CLion_SchoolNotes main.cpp Templates_ClassAct/exampleMain.cpp Templates_ClassAct/TemplateClassExample.cpp Templates_ClassAct/TemplateClassExample.h Templates_Activity_CarlaO/Lista.cpp Templates_Activity_CarlaO/Lista.h Templates_Activity_CarlaO/act_main.cpp)
+add_executable(Main_CLion_SchoolNotes main.cpp Templates_ClassAct/exampleMain.cpp Templates_ClassAct/TemplateClassExample.cpp Templates_ClassAct/TemplateClassExample.h Templates_Activity_CarlaO/Lista.cpp Templates_Activity_CarlaO/Lista.h Templates_Activity_CarlaO/act_main.cpp Recursion_ClassAct/Recursion.cpp Recursion_ClassAct/Recursion.h)

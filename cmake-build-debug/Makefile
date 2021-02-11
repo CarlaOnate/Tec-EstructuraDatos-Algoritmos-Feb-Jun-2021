@@ -143,6 +143,33 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
+Recursion_ClassAct/Recursion.o: Recursion_ClassAct/Recursion.cpp.o
+
+.PHONY : Recursion_ClassAct/Recursion.o
+
+# target to build an object file
+Recursion_ClassAct/Recursion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o
+.PHONY : Recursion_ClassAct/Recursion.cpp.o
+
+Recursion_ClassAct/Recursion.i: Recursion_ClassAct/Recursion.cpp.i
+
+.PHONY : Recursion_ClassAct/Recursion.i
+
+# target to preprocess a source file
+Recursion_ClassAct/Recursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.i
+.PHONY : Recursion_ClassAct/Recursion.cpp.i
+
+Recursion_ClassAct/Recursion.s: Recursion_ClassAct/Recursion.cpp.s
+
+.PHONY : Recursion_ClassAct/Recursion.s
+
+# target to generate assembly for a file
+Recursion_ClassAct/Recursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s
+.PHONY : Recursion_ClassAct/Recursion.cpp.s
+
 Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
 
 .PHONY : Templates_Activity_CarlaO/Lista.o
@@ -287,6 +314,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
+	@echo "... Recursion_ClassAct/Recursion.o"
+	@echo "... Recursion_ClassAct/Recursion.i"
+	@echo "... Recursion_ClassAct/Recursion.s"
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"
