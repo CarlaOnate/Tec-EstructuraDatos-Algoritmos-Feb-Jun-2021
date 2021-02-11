@@ -26,14 +26,13 @@ int sumaRecursiva(int n){
     }
 }
 
-//Todo: SumaDirecta = (n+1)/2 - formulazo
+//Todo: SumaDirecta = n(n-1)/2 - formulazo
 
 int sumaDirecta(int n){
-    if(n >= 0){
-        return (n+1)/2;
-    } else {
-        cout << "Numero invalido" << endl;
+    if(n == 0){
         return 0;
+    } else {
+        return (n * (n-1))/2;
     }
 }
 

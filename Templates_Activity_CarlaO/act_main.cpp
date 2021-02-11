@@ -15,13 +15,14 @@ int act_main() {
 // Review: This means intList is of type Lista<string> and the template is now to be treated as an int.
 
 //Profe esto me marco error y ya no supe como hacerle para probar las funciones de mis clase :(
-//    Lista<string> a;
-//    Lista<int> intList;
+//Ya deberia de servir
+    Lista<string> a;
+    Lista<int> intList;
 
-//    stringList.insert("Holo");
-//    stringList.insert("I");
-//    stringList.insert("am");
-//    stringList.insert("Carla :)");
+    stringList.insert("Holo");
+    stringList.insert("I");
+    stringList.insert("am");
+    stringList.insert("Carla :)");
 
 
     return 0;

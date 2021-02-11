@@ -11,18 +11,18 @@ using namespace std;
 
 const int MAX = 100;
 
-template<class T>
+template<class T> //Review: Declaring template var to use in class
 class Lista {
 private:
     vector<T> listaDatos;
     int size;
 public:
-    Lista<T>();
-    bool insert(T); //Todo: Coloca valor al final del vector
-    bool erase(); //Todo: Despliega utlimo elemento de la lista y lo borra, sino pone "NO HAY ELEMENTOS"
-    T getData(int); //Todo: Recibe index y regresa dato en esa posicion, validacion de input.
-    int getSize(); //Todo: Regresa size del vector
-    void print(); //Todo: Imprime lista de datos, uno por uno - formato en notion
+    Lista();
+    bool insert(T);
+    bool erase();
+    T getData(int);
+    int getSize();
+    void print();
 
 };
 
