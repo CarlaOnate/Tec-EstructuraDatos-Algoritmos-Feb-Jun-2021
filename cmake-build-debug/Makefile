@@ -143,59 +143,140 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
-Templates_Exercise/TemplateClassExample.o: Templates_Exercise/TemplateClassExample.cpp.o
+Recursion_ClassAct/Recursion.o: Recursion_ClassAct/Recursion.cpp.o
 
-.PHONY : Templates_Exercise/TemplateClassExample.o
-
-# target to build an object file
-Templates_Exercise/TemplateClassExample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.o
-.PHONY : Templates_Exercise/TemplateClassExample.cpp.o
-
-Templates_Exercise/TemplateClassExample.i: Templates_Exercise/TemplateClassExample.cpp.i
-
-.PHONY : Templates_Exercise/TemplateClassExample.i
-
-# target to preprocess a source file
-Templates_Exercise/TemplateClassExample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.i
-.PHONY : Templates_Exercise/TemplateClassExample.cpp.i
-
-Templates_Exercise/TemplateClassExample.s: Templates_Exercise/TemplateClassExample.cpp.s
-
-.PHONY : Templates_Exercise/TemplateClassExample.s
-
-# target to generate assembly for a file
-Templates_Exercise/TemplateClassExample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/TemplateClassExample.cpp.s
-.PHONY : Templates_Exercise/TemplateClassExample.cpp.s
-
-Templates_Exercise/exampleMain.o: Templates_Exercise/exampleMain.cpp.o
-
-.PHONY : Templates_Exercise/exampleMain.o
+.PHONY : Recursion_ClassAct/Recursion.o
 
 # target to build an object file
-Templates_Exercise/exampleMain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.o
-.PHONY : Templates_Exercise/exampleMain.cpp.o
+Recursion_ClassAct/Recursion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o
+.PHONY : Recursion_ClassAct/Recursion.cpp.o
 
-Templates_Exercise/exampleMain.i: Templates_Exercise/exampleMain.cpp.i
+Recursion_ClassAct/Recursion.i: Recursion_ClassAct/Recursion.cpp.i
 
-.PHONY : Templates_Exercise/exampleMain.i
+.PHONY : Recursion_ClassAct/Recursion.i
 
 # target to preprocess a source file
-Templates_Exercise/exampleMain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.i
-.PHONY : Templates_Exercise/exampleMain.cpp.i
+Recursion_ClassAct/Recursion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.i
+.PHONY : Recursion_ClassAct/Recursion.cpp.i
 
-Templates_Exercise/exampleMain.s: Templates_Exercise/exampleMain.cpp.s
+Recursion_ClassAct/Recursion.s: Recursion_ClassAct/Recursion.cpp.s
 
-.PHONY : Templates_Exercise/exampleMain.s
+.PHONY : Recursion_ClassAct/Recursion.s
 
 # target to generate assembly for a file
-Templates_Exercise/exampleMain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Exercise/exampleMain.cpp.s
-.PHONY : Templates_Exercise/exampleMain.cpp.s
+Recursion_ClassAct/Recursion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s
+.PHONY : Recursion_ClassAct/Recursion.cpp.s
+
+Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
+
+.PHONY : Templates_Activity_CarlaO/Lista.o
+
+# target to build an object file
+Templates_Activity_CarlaO/Lista.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o
+.PHONY : Templates_Activity_CarlaO/Lista.cpp.o
+
+Templates_Activity_CarlaO/Lista.i: Templates_Activity_CarlaO/Lista.cpp.i
+
+.PHONY : Templates_Activity_CarlaO/Lista.i
+
+# target to preprocess a source file
+Templates_Activity_CarlaO/Lista.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.i
+.PHONY : Templates_Activity_CarlaO/Lista.cpp.i
+
+Templates_Activity_CarlaO/Lista.s: Templates_Activity_CarlaO/Lista.cpp.s
+
+.PHONY : Templates_Activity_CarlaO/Lista.s
+
+# target to generate assembly for a file
+Templates_Activity_CarlaO/Lista.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.s
+.PHONY : Templates_Activity_CarlaO/Lista.cpp.s
+
+Templates_Activity_CarlaO/act_main.o: Templates_Activity_CarlaO/act_main.cpp.o
+
+.PHONY : Templates_Activity_CarlaO/act_main.o
+
+# target to build an object file
+Templates_Activity_CarlaO/act_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.o
+
+Templates_Activity_CarlaO/act_main.i: Templates_Activity_CarlaO/act_main.cpp.i
+
+.PHONY : Templates_Activity_CarlaO/act_main.i
+
+# target to preprocess a source file
+Templates_Activity_CarlaO/act_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.i
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.i
+
+Templates_Activity_CarlaO/act_main.s: Templates_Activity_CarlaO/act_main.cpp.s
+
+.PHONY : Templates_Activity_CarlaO/act_main.s
+
+# target to generate assembly for a file
+Templates_Activity_CarlaO/act_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.s
+.PHONY : Templates_Activity_CarlaO/act_main.cpp.s
+
+Templates_ClassAct/TemplateClassExample.o: Templates_ClassAct/TemplateClassExample.cpp.o
+
+.PHONY : Templates_ClassAct/TemplateClassExample.o
+
+# target to build an object file
+Templates_ClassAct/TemplateClassExample.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.o
+.PHONY : Templates_ClassAct/TemplateClassExample.cpp.o
+
+Templates_ClassAct/TemplateClassExample.i: Templates_ClassAct/TemplateClassExample.cpp.i
+
+.PHONY : Templates_ClassAct/TemplateClassExample.i
+
+# target to preprocess a source file
+Templates_ClassAct/TemplateClassExample.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.i
+.PHONY : Templates_ClassAct/TemplateClassExample.cpp.i
+
+Templates_ClassAct/TemplateClassExample.s: Templates_ClassAct/TemplateClassExample.cpp.s
+
+.PHONY : Templates_ClassAct/TemplateClassExample.s
+
+# target to generate assembly for a file
+Templates_ClassAct/TemplateClassExample.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.s
+.PHONY : Templates_ClassAct/TemplateClassExample.cpp.s
+
+Templates_ClassAct/exampleMain.o: Templates_ClassAct/exampleMain.cpp.o
+
+.PHONY : Templates_ClassAct/exampleMain.o
+
+# target to build an object file
+Templates_ClassAct/exampleMain.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/exampleMain.cpp.o
+.PHONY : Templates_ClassAct/exampleMain.cpp.o
+
+Templates_ClassAct/exampleMain.i: Templates_ClassAct/exampleMain.cpp.i
+
+.PHONY : Templates_ClassAct/exampleMain.i
+
+# target to preprocess a source file
+Templates_ClassAct/exampleMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/exampleMain.cpp.i
+.PHONY : Templates_ClassAct/exampleMain.cpp.i
+
+Templates_ClassAct/exampleMain.s: Templates_ClassAct/exampleMain.cpp.s
+
+.PHONY : Templates_ClassAct/exampleMain.s
+
+# target to generate assembly for a file
+Templates_ClassAct/exampleMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/exampleMain.cpp.s
+.PHONY : Templates_ClassAct/exampleMain.cpp.s
 
 main.o: main.cpp.o
 
@@ -233,12 +314,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
-	@echo "... Templates_Exercise/TemplateClassExample.o"
-	@echo "... Templates_Exercise/TemplateClassExample.i"
-	@echo "... Templates_Exercise/TemplateClassExample.s"
-	@echo "... Templates_Exercise/exampleMain.o"
-	@echo "... Templates_Exercise/exampleMain.i"
-	@echo "... Templates_Exercise/exampleMain.s"
+	@echo "... Recursion_ClassAct/Recursion.o"
+	@echo "... Recursion_ClassAct/Recursion.i"
+	@echo "... Recursion_ClassAct/Recursion.s"
+	@echo "... Templates_Activity_CarlaO/Lista.o"
+	@echo "... Templates_Activity_CarlaO/Lista.i"
+	@echo "... Templates_Activity_CarlaO/Lista.s"
+	@echo "... Templates_Activity_CarlaO/act_main.o"
+	@echo "... Templates_Activity_CarlaO/act_main.i"
+	@echo "... Templates_Activity_CarlaO/act_main.s"
+	@echo "... Templates_ClassAct/TemplateClassExample.o"
+	@echo "... Templates_ClassAct/TemplateClassExample.i"
+	@echo "... Templates_ClassAct/TemplateClassExample.s"
+	@echo "... Templates_ClassAct/exampleMain.o"
+	@echo "... Templates_ClassAct/exampleMain.i"
+	@echo "... Templates_ClassAct/exampleMain.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
