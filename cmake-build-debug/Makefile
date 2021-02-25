@@ -170,6 +170,33 @@ Recursion_ClassAct/Recursion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s
 .PHONY : Recursion_ClassAct/Recursion.cpp.s
 
+SearchAlgorithms_ClassAct/search_main.o: SearchAlgorithms_ClassAct/search_main.cpp.o
+
+.PHONY : SearchAlgorithms_ClassAct/search_main.o
+
+# target to build an object file
+SearchAlgorithms_ClassAct/search_main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o
+.PHONY : SearchAlgorithms_ClassAct/search_main.cpp.o
+
+SearchAlgorithms_ClassAct/search_main.i: SearchAlgorithms_ClassAct/search_main.cpp.i
+
+.PHONY : SearchAlgorithms_ClassAct/search_main.i
+
+# target to preprocess a source file
+SearchAlgorithms_ClassAct/search_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.i
+.PHONY : SearchAlgorithms_ClassAct/search_main.cpp.i
+
+SearchAlgorithms_ClassAct/search_main.s: SearchAlgorithms_ClassAct/search_main.cpp.s
+
+.PHONY : SearchAlgorithms_ClassAct/search_main.s
+
+# target to generate assembly for a file
+SearchAlgorithms_ClassAct/search_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.s
+.PHONY : SearchAlgorithms_ClassAct/search_main.cpp.s
+
 Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
 
 .PHONY : Templates_Activity_CarlaO/Lista.o
@@ -317,6 +344,9 @@ help:
 	@echo "... Recursion_ClassAct/Recursion.o"
 	@echo "... Recursion_ClassAct/Recursion.i"
 	@echo "... Recursion_ClassAct/Recursion.s"
+	@echo "... SearchAlgorithms_ClassAct/search_main.o"
+	@echo "... SearchAlgorithms_ClassAct/search_main.i"
+	@echo "... SearchAlgorithms_ClassAct/search_main.s"
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"

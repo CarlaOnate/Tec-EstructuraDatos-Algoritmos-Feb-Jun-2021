@@ -155,6 +155,19 @@ CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Recursion_ClassAct/Recursion.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s
 
+CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o: CMakeFiles/Main_CLion_SchoolNotes.dir/flags.make
+CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o: ../SearchAlgorithms_ClassAct/search_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o -c "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_ClassAct/search_main.cpp"
+
+CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_ClassAct/search_main.cpp" > CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.i
+
+CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_ClassAct/search_main.cpp" -o CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.s
+
 # Object files for target Main_CLion_SchoolNotes
 Main_CLion_SchoolNotes_OBJECTS = \
 "CMakeFiles/Main_CLion_SchoolNotes.dir/main.cpp.o" \
@@ -162,7 +175,8 @@ Main_CLion_SchoolNotes_OBJECTS = \
 "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.o" \
 "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o" \
 "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o" \
-"CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o"
+"CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o" \
+"CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o"
 
 # External object files for target Main_CLion_SchoolNotes
 Main_CLion_SchoolNotes_EXTERNAL_OBJECTS =
@@ -173,9 +187,10 @@ Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o
+Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/build.make
 Main_CLion_SchoolNotes: CMakeFiles/Main_CLion_SchoolNotes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Main_CLion_SchoolNotes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Main_CLion_SchoolNotes"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Main_CLion_SchoolNotes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
