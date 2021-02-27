@@ -3,6 +3,8 @@
 
 CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o: ../Recursion_ClassAct/Recursion.cpp
 
+CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o: ../SearchAlgorithms_ClassAct/search_main.cpp
+
 CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o: ../Templates_Activity_CarlaO/Lista.cpp
 CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o: ../Templates_Activity_CarlaO/Lista.h
 
