@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.o"
-  "CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main.cpp.o"
+  "CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main_act.cpp.o"
+  "CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.o"
+  "CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/Lista.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_Activity_CarlaO/act_main.cpp.o"
   "CMakeFiles/Main_CLion_SchoolNotes.dir/Templates_ClassAct/TemplateClassExample.cpp.o"

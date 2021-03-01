@@ -170,32 +170,59 @@ Recursion_ClassAct/Recursion.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Recursion_ClassAct/Recursion.cpp.s
 .PHONY : Recursion_ClassAct/Recursion.cpp.s
 
-SearchAlgorithms_Act.Ind/search_main.o: SearchAlgorithms_Act.Ind/search_main.cpp.o
+SearchAlgorithms_Act.Ind/search_main_act.o: SearchAlgorithms_Act.Ind/search_main_act.cpp.o
 
-.PHONY : SearchAlgorithms_Act.Ind/search_main.o
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.o
 
 # target to build an object file
-SearchAlgorithms_Act.Ind/search_main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main.cpp.o
-.PHONY : SearchAlgorithms_Act.Ind/search_main.cpp.o
+SearchAlgorithms_Act.Ind/search_main_act.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main_act.cpp.o
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.cpp.o
 
-SearchAlgorithms_Act.Ind/search_main.i: SearchAlgorithms_Act.Ind/search_main.cpp.i
+SearchAlgorithms_Act.Ind/search_main_act.i: SearchAlgorithms_Act.Ind/search_main_act.cpp.i
 
-.PHONY : SearchAlgorithms_Act.Ind/search_main.i
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.i
 
 # target to preprocess a source file
-SearchAlgorithms_Act.Ind/search_main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main.cpp.i
-.PHONY : SearchAlgorithms_Act.Ind/search_main.cpp.i
+SearchAlgorithms_Act.Ind/search_main_act.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main_act.cpp.i
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.cpp.i
 
-SearchAlgorithms_Act.Ind/search_main.s: SearchAlgorithms_Act.Ind/search_main.cpp.s
+SearchAlgorithms_Act.Ind/search_main_act.s: SearchAlgorithms_Act.Ind/search_main_act.cpp.s
 
-.PHONY : SearchAlgorithms_Act.Ind/search_main.s
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.s
 
 # target to generate assembly for a file
-SearchAlgorithms_Act.Ind/search_main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main.cpp.s
-.PHONY : SearchAlgorithms_Act.Ind/search_main.cpp.s
+SearchAlgorithms_Act.Ind/search_main_act.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_Act.Ind/search_main_act.cpp.s
+.PHONY : SearchAlgorithms_Act.Ind/search_main_act.cpp.s
+
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.o: SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.o
+
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.o
+
+# target to build an object file
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.o
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.o
+
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.i: SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.i
+
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.i
+
+# target to preprocess a source file
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.i
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.i
+
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.s: SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.s
+
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.s
+
+# target to generate assembly for a file
+SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.s
+.PHONY : SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp.s
 
 SearchAlgorithms_ClassAct/search_main.o: SearchAlgorithms_ClassAct/search_main.cpp.o
 
@@ -223,6 +250,33 @@ SearchAlgorithms_ClassAct/search_main.s: SearchAlgorithms_ClassAct/search_main.c
 SearchAlgorithms_ClassAct/search_main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/SearchAlgorithms_ClassAct/search_main.cpp.s
 .PHONY : SearchAlgorithms_ClassAct/search_main.cpp.s
+
+Sorting_Algorithms/replitProfe.o: Sorting_Algorithms/replitProfe.cpp.o
+
+.PHONY : Sorting_Algorithms/replitProfe.o
+
+# target to build an object file
+Sorting_Algorithms/replitProfe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.o
+.PHONY : Sorting_Algorithms/replitProfe.cpp.o
+
+Sorting_Algorithms/replitProfe.i: Sorting_Algorithms/replitProfe.cpp.i
+
+.PHONY : Sorting_Algorithms/replitProfe.i
+
+# target to preprocess a source file
+Sorting_Algorithms/replitProfe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.i
+.PHONY : Sorting_Algorithms/replitProfe.cpp.i
+
+Sorting_Algorithms/replitProfe.s: Sorting_Algorithms/replitProfe.cpp.s
+
+.PHONY : Sorting_Algorithms/replitProfe.s
+
+# target to generate assembly for a file
+Sorting_Algorithms/replitProfe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.s
+.PHONY : Sorting_Algorithms/replitProfe.cpp.s
 
 Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
 
@@ -371,12 +425,18 @@ help:
 	@echo "... Recursion_ClassAct/Recursion.o"
 	@echo "... Recursion_ClassAct/Recursion.i"
 	@echo "... Recursion_ClassAct/Recursion.s"
-	@echo "... SearchAlgorithms_Act.Ind/search_main.o"
-	@echo "... SearchAlgorithms_Act.Ind/search_main.i"
-	@echo "... SearchAlgorithms_Act.Ind/search_main.s"
+	@echo "... SearchAlgorithms_Act.Ind/search_main_act.o"
+	@echo "... SearchAlgorithms_Act.Ind/search_main_act.i"
+	@echo "... SearchAlgorithms_Act.Ind/search_main_act.s"
+	@echo "... SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.o"
+	@echo "... SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.i"
+	@echo "... SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.s"
 	@echo "... SearchAlgorithms_ClassAct/search_main.o"
 	@echo "... SearchAlgorithms_ClassAct/search_main.i"
 	@echo "... SearchAlgorithms_ClassAct/search_main.s"
+	@echo "... Sorting_Algorithms/replitProfe.o"
+	@echo "... Sorting_Algorithms/replitProfe.i"
+	@echo "... Sorting_Algorithms/replitProfe.s"
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"

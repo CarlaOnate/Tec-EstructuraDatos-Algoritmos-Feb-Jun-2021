@@ -86,10 +86,16 @@
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Recursion_ClassAct/Recursion.h">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
-		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_Act.Ind/search_main.cpp">
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_Act.Ind/search_main_act.cpp">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_ClassAct/ClassAct_Selection_Bubble.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/SearchAlgorithms_ClassAct/search_main.cpp">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Sorting_Algorithms/replitProfe.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/Lista.cpp">
