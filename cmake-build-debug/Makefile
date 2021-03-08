@@ -278,6 +278,33 @@ Sorting_Algorithms/replitProfe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.s
 .PHONY : Sorting_Algorithms/replitProfe.cpp.s
 
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
+
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o
+
+# target to build an object file
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
+
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
+
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i
+
+# target to preprocess a source file
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
+
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
+
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s
+
+# target to generate assembly for a file
+Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
+
 Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
 
 .PHONY : Templates_Activity_CarlaO/Lista.o
@@ -437,6 +464,9 @@ help:
 	@echo "... Sorting_Algorithms/replitProfe.o"
 	@echo "... Sorting_Algorithms/replitProfe.i"
 	@echo "... Sorting_Algorithms/replitProfe.s"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s"
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"

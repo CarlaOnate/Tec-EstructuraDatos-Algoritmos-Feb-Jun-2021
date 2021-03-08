@@ -98,6 +98,9 @@
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Sorting_Algorithms/replitProfe.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
+		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp">
+			<Option target="Main_CLion_SchoolNotes"/>
+		</Unit>
 		<Unit filename="/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes/Templates_Activity_CarlaO/Lista.cpp">
 			<Option target="Main_CLion_SchoolNotes"/>
 		</Unit>
