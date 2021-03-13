@@ -9,7 +9,7 @@
 #include "Sort.h"
 using namespace std;
 
-int main() {
+int quicksort_act_main() {
     int menuOption = 1;
     int orderOption = 0;
     int searchOption = 0;
