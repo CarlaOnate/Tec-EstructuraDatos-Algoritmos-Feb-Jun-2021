@@ -143,6 +143,33 @@ Main_CLion_SchoolNotes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/build
 .PHONY : Main_CLion_SchoolNotes/fast
 
+QuickSort_IndAct/quicksort_act.o: QuickSort_IndAct/quicksort_act.cpp.o
+
+.PHONY : QuickSort_IndAct/quicksort_act.o
+
+# target to build an object file
+QuickSort_IndAct/quicksort_act.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/QuickSort_IndAct/quicksort_act.cpp.o
+.PHONY : QuickSort_IndAct/quicksort_act.cpp.o
+
+QuickSort_IndAct/quicksort_act.i: QuickSort_IndAct/quicksort_act.cpp.i
+
+.PHONY : QuickSort_IndAct/quicksort_act.i
+
+# target to preprocess a source file
+QuickSort_IndAct/quicksort_act.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/QuickSort_IndAct/quicksort_act.cpp.i
+.PHONY : QuickSort_IndAct/quicksort_act.cpp.i
+
+QuickSort_IndAct/quicksort_act.s: QuickSort_IndAct/quicksort_act.cpp.s
+
+.PHONY : QuickSort_IndAct/quicksort_act.s
+
+# target to generate assembly for a file
+QuickSort_IndAct/quicksort_act.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/QuickSort_IndAct/quicksort_act.cpp.s
+.PHONY : QuickSort_IndAct/quicksort_act.cpp.s
+
 Recursion_ClassAct/Recursion.o: Recursion_ClassAct/Recursion.cpp.o
 
 .PHONY : Recursion_ClassAct/Recursion.o
@@ -278,32 +305,32 @@ Sorting_Algorithms/replitProfe.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/replitProfe.cpp.s
 .PHONY : Sorting_Algorithms/replitProfe.cpp.s
 
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.o: Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.o
 
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.o
 
 # target to build an object file
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.o
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.o
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.o
 
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.i: Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.i
 
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.i
 
 # target to preprocess a source file
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.i
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.i
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.i
 
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s: Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.s: Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.s
 
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.s
 
 # target to generate assembly for a file
-Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
-.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.cpp.s
+Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Main_CLion_SchoolNotes.dir/build.make CMakeFiles/Main_CLion_SchoolNotes.dir/Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.s
+.PHONY : Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.cpp.s
 
 Templates_Activity_CarlaO/Lista.o: Templates_Activity_CarlaO/Lista.cpp.o
 
@@ -449,6 +476,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Main_CLion_SchoolNotes"
+	@echo "... QuickSort_IndAct/quicksort_act.o"
+	@echo "... QuickSort_IndAct/quicksort_act.i"
+	@echo "... QuickSort_IndAct/quicksort_act.s"
 	@echo "... Recursion_ClassAct/Recursion.o"
 	@echo "... Recursion_ClassAct/Recursion.i"
 	@echo "... Recursion_ClassAct/Recursion.s"
@@ -464,9 +494,9 @@ help:
 	@echo "... Sorting_Algorithms/replitProfe.o"
 	@echo "... Sorting_Algorithms/replitProfe.i"
 	@echo "... Sorting_Algorithms/replitProfe.s"
-	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.o"
-	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.i"
-	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_algorithms.s"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.o"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.i"
+	@echo "... Sorting_Algorithms/swap_selection_bubble_insertion_mergealgorithms.s"
 	@echo "... Templates_Activity_CarlaO/Lista.o"
 	@echo "... Templates_Activity_CarlaO/Lista.i"
 	@echo "... Templates_Activity_CarlaO/Lista.s"
