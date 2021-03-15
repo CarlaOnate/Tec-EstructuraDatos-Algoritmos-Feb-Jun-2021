@@ -2,7 +2,7 @@
 // Created by Carla Onate on 14/03/21.
 //
 
-#include "../../../../../../CLionProjects/Act_Integradora_1/Server.h"
+#include "Server.h"
 
 Server::Server() {
     std::string line;
@@ -65,16 +65,20 @@ void Server::quickSort(std::vector<ServerLog*> & array, long low, long high) {
 void Server::searchLog(){
     std::string monthNumbers [12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
-    std::string firstMonth, secondMonth, firstMonthNumber, secondMonthNumber, firstDay, secondDay;
+    std::string firstMonth, secondMonth, firstMonthNumber, secondMonthNumber, firstDay, secondDay, firstHour, secondHour;
 
     std::cout << "Ingrese primer mes: (Jun, Jul, Aug, Sep, Oct) \n";
     std::cin >> firstMonth;
     std::cout << "Ingrese primer día: (05) \n";
     std::cin >> firstDay;
+    std::cout << "Ingrese primera hora: (05) \n";
+    std::cin >> firstHour;
     std::cout << "Ingrese segundo mes: (Jun, Jul, Aug, Sep, Oct)\n";
     std::cin >> secondMonth;
-    std::cout << "Ingrese segundo dia: (05)\n";
+    std::cout << "Ingrese segundo dia: (09)\n";
     std::cin >> secondDay;
+    std::cout << "Ingrese segunda hora: (09) \n";
+    std::cin >> secondHour;
 
     for(int i = 0; i < 12; i++){
         if(monthNumbers[i] == firstMonth) firstMonthNumber = std::to_string(i + 1);
@@ -82,7 +86,7 @@ void Server::searchLog(){
     }
 
 
-    search = {firstMonth, firstMonthNumber, firstDay, secondMonth, secondMonthNumber, secondDay, "first"};
+    search = {firstMonth, firstMonthNumber, firstDay, firstHour, secondMonth, secondMonthNumber, secondDay, secondHour, "first"};
     long firstIndexLog = this->binarySearch(logs, 0, logs.size()-1, search, true);
     long secondIndexLog = this->binarySearch(logs, 0, logs.size()-1, search, false);
     if(firstIndexLog < 0 || secondIndexLog < 0){
@@ -135,16 +139,18 @@ bool Server::compareLogs(ServerLog* el, std::vector<std::string>& search, bool f
     std::string elMonth = el->getMonth();
     std::string elDay = el->getDay();
     std::string elHours = el->getHours();
-//search vector: firstMonth, firstMonthNumber, firstDay, secondMonth, secondMonthNumber, secondDay, first/last
+//  search = {firstMonth, firstMonthNumber, firstDay, firstHour, secondMonth, secondMonthNumber, secondDay, secondHour, "first"};
 
     if(first) {
         std::string searchMonth = search[0];
         std::string searchDay = search[2];
-        same = elMonth == searchMonth && elDay == searchDay && elHours == "00"; //to find first occurrence of that day
+        std::string searchHour = search[3];
+        same = elMonth == searchMonth && elDay == searchDay && elHours == searchHour; //to find first occurrence of that day
     } else {
-        std::string searchMonth = search[3];
-        std::string searchDay = search[5];
-        same = elMonth == searchMonth && elDay == searchDay && elHours == "23"; //to find the las occurrence of that day
+        std::string searchMonth = search[4];
+        std::string searchDay = search[6];
+        std::string searchHour = search[7];
+        same = elMonth == searchMonth && elDay == searchDay && elHours == searchHour; //to find the las occurrence of that day
     }
 
     return same;
@@ -155,20 +161,20 @@ bool Server::compareLogs(ServerLog* el, std::vector<std::string>& search, bool f
 
 long Server::binarySearch(std::vector<ServerLog*> arr, long left, long right, std::vector<std::string>& value, bool first) {
     //Todo: First date index is incorrect
-        if (left <= right) {
-            first ? value[6] = "first" : value[6] = "last";
+    if (left <= right) {
+        first ? value[8] = "first" : value[8] = "last";
 
-            long mid = (left + right)/2;
-            if (this->compareLogs(arr[mid], value, first)){
-                return mid;
-            }
-            if (*arr[mid] > value){
-                return binarySearch(arr, left, mid-1, value, first);
-            }
-            if (*arr[mid] < value){
-                return binarySearch(arr, mid+1, right, value, first);
-            }
+        long mid = (left + right)/2;
+        if (this->compareLogs(arr[mid], value, first)){
+            return mid;
         }
-        return -1;
+        if (*arr[mid] > value){
+            return binarySearch(arr, left, mid-1, value, first);
+        }
+        if (*arr[mid] < value){
+            return binarySearch(arr, mid+1, right, value, first);
+        }
+    }
+    return -1;
 }
 

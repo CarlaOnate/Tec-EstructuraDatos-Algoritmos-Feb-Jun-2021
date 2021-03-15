@@ -2,7 +2,7 @@
 // Created by Carla Onate on 13/03/21.
 //
 
-#include "../../../../../../CLionProjects/Act_Integradora_1/ServerLog.h"
+#include "ServerLog.h"
 
 ServerLog::ServerLog(std::string log){
     std::vector<std::string> parsedLog = this->parse(log, " ", 4);
@@ -49,10 +49,11 @@ bool ServerLog::operator<(const std::vector<std::string>& other) {
     int thisHours = std::stoi(this->hours);
     int thisMinutes = std::stoi(this->minutes);
     int thisSeconds = std::stoi(this->seconds);
-//other vector: firstMonth, firstMonthNumber, firstDay, secondMonth, secondMonthNumber, secondDay, first/last
-    int otherDay = other[6] == "first" ? std::stoi(other[2]) : std::stoi(other[5]);
-    int otherMonthNumber = other[6] == "first" ? std::stoi(other[1]) : std::stoi(other[4]);
-    int otherHours = other[6] == "first" ? 00 : 23;
+
+//  other = {firstMonth, firstMonthNumber, firstDay, firstHour, secondMonth, secondMonthNumber, secondDay, secondHour, "first"};
+    int otherDay = other[8] == "first" ? std::stoi(other[2]) : std::stoi(other[6]);
+    int otherMonthNumber = other[8] == "first" ? std::stoi(other[1]) : std::stoi(other[5]);
+    int otherHours = other[8] == "first" ? std::stoi(other[3]) : std::stoi(other[7]);
     int otherMinutes = other[6] == "first" ? 00 : 60;
     int otherSeconds = other[6] == "first" ? 00 : 60;
 
@@ -80,12 +81,12 @@ bool ServerLog::operator>(const std::vector<std::string>& other) {
     int thisHours = std::stoi(this->hours);
     int thisMinutes = std::stoi(this->minutes);
     int thisSeconds = std::stoi(this->seconds);
-//other vector: firstMonth, firstMonthNumber, firstDay, secondMonth, secondMonthNumber, secondDay, first/last
-    int otherDay = other[6] == "first" ? std::stoi(other[2]) : std::stoi(other[5]);
-    int otherMonthNumber = other[6] == "first" ? std::stoi(other[1]) : std::stoi(other[4]);
-    int otherHours = other[6] == "first" ? 0 : 23;
-    int otherMinutes = other[6] == "first" ? 0 : 60;
-    int otherSeconds = other[6] == "first" ? 0 : 60;
+//  other = {firstMonth, firstMonthNumber, firstDay, firstHour, secondMonth, secondMonthNumber, secondDay, secondHour, "first"};
+    int otherDay = other[8] == "first" ? std::stoi(other[2]) : std::stoi(other[6]);
+    int otherMonthNumber = other[8] == "first" ? std::stoi(other[1]) : std::stoi(other[5]);
+    int otherHours = other[8] == "first" ? std::stoi(other[3]) : std::stoi(other[7]);
+    int otherMinutes = other[8] == "first" ? 0 : 60;
+    int otherSeconds = other[8] == "first" ? 0 : 60;
 
 
     if(this->monthNumber == otherMonthNumber){

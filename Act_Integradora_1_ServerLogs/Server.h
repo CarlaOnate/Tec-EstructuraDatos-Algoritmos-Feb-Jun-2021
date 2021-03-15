@@ -5,7 +5,7 @@
 #ifndef ACT_INTEGRADORA_1_SERVER_H
 #define ACT_INTEGRADORA_1_SERVER_H
 
-#include "../../../../../../CLionProjects/Act_Integradora_1/ServerLog.h"
+#include "ServerLog.h"
 #include <fstream>
 #include <string>
 #include <vector>
