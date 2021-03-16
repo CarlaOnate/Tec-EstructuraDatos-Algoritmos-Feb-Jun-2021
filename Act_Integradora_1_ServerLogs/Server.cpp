@@ -114,7 +114,7 @@ void Server::printSearch(long firstInd, long secondInd) {
         std::cout << stringResult[i] << "\n";
     }
 
-//    this->searchFile(stringResult);
+    this->searchFile(stringResult);
 
 }
 
