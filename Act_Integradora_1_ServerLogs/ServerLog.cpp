@@ -1,10 +1,14 @@
 //
-// Created by Carla Onate on 13/03/21.
+// Created by Carla Oñate A01653555 -  13/03/21.
 //
+
+//Implementacion de clase ServerLog.h
 
 #include "ServerLog.h"
 
+//Aquí hace el parse y guarda los valores en las variables del objeto ServerLog
 ServerLog::ServerLog(std::string log){
+    //Input: Linea de texto -> Ejemplo: Aug 4 03:18:56 960.96.3.29:5268 Failed password for admin
     std::vector<std::string> parsedLog = this->parse(log, " ", 4);
 
     month = parsedLog[0];
@@ -24,8 +28,9 @@ ServerLog::ServerLog(std::string log){
     this->setNumberMonth(month);
 }
 
-
+//Función para parsear linea de texto asi como tiempo de la linea de texto - regresa vector de strings
 std::vector<std::string> ServerLog::parse(std::string text, std::string splitKey, int limit = 0){
+    //Inputs: Recibe string a separar, la llave con que separar, y el limite donde detener la separacion
     std::vector<std::string> parseResult;
 
     int splitCounter = 0;
@@ -35,14 +40,15 @@ std::vector<std::string> ServerLog::parse(std::string text, std::string splitKey
         parseResult.push_back(text.substr(start, end-start));
         start = end + splitKey.size();
         end = text.find(splitKey, start);
-        splitCounter++;         //To separate everything before text msg.
+        splitCounter++;         //To separate everything before text msg and stop separating msg.
     }
     parseResult.push_back(text.substr(start, text.size()-1));
     return parseResult;
 }
 
-
+//Overloaded operator to know if search value is higher than mid from binary search return bool
 bool ServerLog::operator<(const std::vector<std::string>& other) {
+    //Input: Vector string with search values
     bool smaller = false;
 
     int thisDay = std::stoi(this->day);
@@ -73,7 +79,7 @@ bool ServerLog::operator<(const std::vector<std::string>& other) {
     return smaller;
 }
 
-
+//Overloaded operator to know if search value is lower than mid from binary search return bool
 bool ServerLog::operator>(const std::vector<std::string>& other) {
     bool smaller = false;
 
@@ -106,7 +112,7 @@ bool ServerLog::operator>(const std::vector<std::string>& other) {
 }
 
 
-//Operator overload to compare in ordering
+//Operator overload to compare in ordering - return bool if month,day and hour are the same
 bool ServerLog::operator<=(const ServerLog& other) {
     bool smaller = false;
 
@@ -136,7 +142,7 @@ bool ServerLog::operator<=(const ServerLog& other) {
 }
 
 
-//Gettesr
+//Getters
 std::string ServerLog::getDay() {
     return day;
 }
@@ -149,16 +155,9 @@ std::string ServerLog::getMonth(){
     return month;
 }
 
-
-//Print log
-void ServerLog::printLog() {
-    std::cout << " { " << month << " " << day << " " << time << " " << ip << " " << errorMsg << " } \n";
-}
-
 std::string ServerLog::stringLog(){
     return month + " " + day + " " + time + " " + ip + " " + errorMsg;
 }
-
 
 //Setters
 void ServerLog::setNumberMonth(const std::string& monthInput) {

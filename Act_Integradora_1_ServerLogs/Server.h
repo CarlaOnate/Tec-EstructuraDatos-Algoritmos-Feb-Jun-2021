@@ -1,6 +1,8 @@
 //
-// Created by Carla Onate on 14/03/21.
-//
+// Created by Carla Onate  A01653555  - 14/03/21.
+// Esta clase Server lo que hace es manejar ordenamiento de logs,
+// parseo de los mismos, busqueda en los logs, impresion de logs
+// y crea archivo con resultado de busqueda.
 
 #ifndef ACT_INTEGRADORA_1_SERVER_H
 #define ACT_INTEGRADORA_1_SERVER_H
@@ -18,7 +20,6 @@ private:
 public:
     Server();
     void orderLogs();
-    void printLogs();
 
     long partition(std::vector<ServerLog*>&, long, long);
     void quickSort(std::vector<ServerLog*>&, long, long);
