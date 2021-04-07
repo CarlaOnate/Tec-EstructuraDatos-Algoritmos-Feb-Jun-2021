@@ -97,7 +97,7 @@ vector<int> insertionSort(vector<int> array){ //Iterative algorithm
 
 
 //Merge sort uses recursive merge sort and function merge
-//Review: Usually in C++ the & sign is placed right after the type
+//Review: Usually in C++ the & or * sign is placed right after the type
 
 //void merge(vector<int>& array, int l, int m, int r){
 ////    cout << "inputs: " << l << "  |   " << m << "   |   " << r << endl;

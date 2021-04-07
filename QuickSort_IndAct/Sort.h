@@ -263,7 +263,7 @@ template<class T> void Sort<T>::insertionSort(std::vector<T>& array){
 }
 
 template<class T> void Sort<T>::mergeSort(std::vector<T>& array, int l, int r){
-
+us
     if(l >= r){
         return;
     }
