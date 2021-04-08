@@ -44,7 +44,7 @@ public:
     void linkBackwards();
     void duplicate();
     void removeDuplicates();
-
+    void deleteNode(Node<T>*);
 };
 
 
@@ -60,11 +60,11 @@ template<class T> int DoubleLinkedList<T>::getSize(){
 }
 
 template<class T> void DoubleLinkedList<T>::printDoubleLinkedList() {
-    if (head == NULL)
+    if (head == NULL){
         std::cout << "Double Linked List is empty, nothing to display " << std::endl;
-    else {
-        Node<T> *ptr = head;
-        Node<T> *last = tail;
+    } else {
+        Node<T>* ptr = head;
+        Node<T>* last = tail;
         std::cout << std::endl;
         std::cout << "Elements in Double Linked List in forward direction are: " << std::endl;
         while (ptr != NULL) {
@@ -107,6 +107,7 @@ template<class T> void DoubleLinkedList<T>::addLast(T value) {
     Node<T>* newValue = new Node(value); //Node has default next value of null
     if(head == nullptr && tail == nullptr){
         head = newValue;
+        head->prev = nullptr;
         tail = newValue;
     } else {
         newValue->prev = tail;
@@ -158,6 +159,7 @@ template <class T> bool DoubleLinkedList<T>::deleteAt(int position) {
         current = current->next;
         counter++;
     }
+    //Todo: Check if item is last in list, otherwise next next causes error since its null at the end
     current->prev->next = current->next; //next of previous el must be next of erase element
     current->next->prev = current->prev; //prev of next el must be the prev of erase element
     delete(current);
@@ -390,10 +392,63 @@ template <class T> void DoubleLinkedList<T>::linkBackwards() {
     }
 }
 
-//Todo: Add part from Pau - duplicate and deleteDuplicates.
+
+template <class T> void DoubleLinkedList<T>::duplicate() {
+    Node<T>* current = head;
+    Node<T>* newNode;
+    int counter = 0;
+    while(counter < size){
+        this->addLast(current->data);
+        current = current->next;
+        counter++;
+    }
+    size*=2;
+}
 
 
+template <class T> void DoubleLinkedList<T>::removeDuplicates() {
+    //Code from geeks for geeks because our attempts crashed so there was sth wrong with out logic: https://www.geeksforgeeks.org/remove-duplicates-unsorted-doubly-linked-list/
+    if(head == nullptr || head->next == nullptr){
+        return;
+    }
+    Node<T>* current;
+    Node<T>* search;
 
+    for(current = head; current != nullptr; current = current->next){
+        search = current->next;
+        while(search != nullptr){
+            if(current->data == search->data){
+                Node<T>* next = search->next;
+                this->deleteNode(search);
+                search = next;
+            } else {
+                search = search->next;
+            }
+        }
+    }
+}
+
+
+template <class T> void DoubleLinkedList<T>::deleteNode(Node<T>* delNode){
+    if(head == nullptr || delNode == nullptr){
+        return;
+    }
+
+    if(head == delNode){
+        head = delNode->next;
+    }
+
+    if(delNode->next != nullptr){
+        delNode->next->prev = delNode->prev;
+    }
+
+    if(delNode->prev != nullptr){
+        delNode->prev->next = delNode->next;
+    }
+
+    free(delNode);
+
+}
 
 
 
