@@ -1,12 +1,12 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/carla/Documents/ITC-Tec/EscuelaFeb-Jun2021/Programacion Estructura de Datos/Main_CLion_SchoolNotes"
-CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/Platform/Darwin-Initialize.cmake:286 (message):
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Darwin-Initialize.cmake:303 (message):
   Ignoring CMAKE_OSX_SYSROOT value:
 
    /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
 
   because the directory does not exist.
 Call Stack (most recent call first):
-  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.17/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
   CMakeLists.txt:2 (project)
 
 
